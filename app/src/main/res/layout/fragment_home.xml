@@ -1,0 +1,791 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DashboardFragment">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#E0DEDE"
+            android:orientation="vertical"
+            android:weightSum="10">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="220dp"
+                android:layout_weight="2">
+
+                <ViewFlipper
+                    android:id="@+id/im1"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:scaleType="fitXY"
+                     />
+                <TextView
+                    android:id="@+id/tv_namaMain"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="#000000"
+                    android:fontFamily="sans-serif-black"
+                    android:layout_marginLeft="265dp"/>
+
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="150dp"
+                    android:fontFamily="sans-serif-black"
+                    android:text="YOURS TO EXPLORE"
+                    android:textColor="#FFFFFF"
+                    android:textSize="27dp" />
+
+
+            </RelativeLayout>
+            <androidx.appcompat.widget.SearchView
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="-20dp"
+                android:layout_marginRight="20dp"
+                android:background="#ffffff"
+                app:queryHint="Destinasi Populer">
+
+            </androidx.appcompat.widget.SearchView>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="30dp"
+                android:background="#E0DEDE"
+                android:orientation="vertical"
+                android:weightSum="10">
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/l1"
+                    android:layout_width="80dp"
+                    android:layout_height="100dp"
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginRight="16dp"
+                    app:cardCornerRadius="8dp"
+                    app:cardElevation="8dp">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal|center_vertical"
+                        android:layout_margin="16dp"
+                        android:orientation="vertical">
+
+                        <ImageView
+
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_horizontal"
+                            app:srcCompat="@drawable/sewaa" />
+
+
+
+                    </LinearLayout>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="65dp"
+                        android:text="Sewa Mobil"
+                        android:textSize="8dp"
+                        android:layout_marginLeft="20dp"/>
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/l2"
+                    android:layout_width="80dp"
+                    android:layout_height="100dp"
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginRight="16dp"
+                    android:layout_toRightOf="@id/l1"
+                    app:cardCornerRadius="8dp"
+                    app:cardElevation="8dp">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal|center_vertical"
+                        android:layout_margin="16dp"
+                        android:orientation="vertical">
+
+                        <ImageView
+
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_horizontal"
+                            app:srcCompat="@drawable/hotel" />
+
+
+                    </LinearLayout>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="65dp"
+                        android:text="Hotel"
+                        android:textSize="8dp"
+                        android:layout_marginLeft="30dp"/>
+
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="80dp"
+                    android:layout_height="100dp"
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginRight="16dp"
+                    android:layout_toRightOf="@id/l2"
+                    app:cardCornerRadius="8dp"
+                    app:cardElevation="8dp"
+                    android:onClick="restaurant"
+                    tools:ignore="OnClick">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal|center_vertical"
+                        android:layout_margin="16dp"
+                        android:orientation="vertical">
+
+                        <ImageView
+
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_horizontal"
+                            app:srcCompat="@drawable/makan" />
+
+
+
+                    </LinearLayout>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="65dp"
+                        android:text="Restaurant"
+                        android:textSize="8dp"
+                        android:layout_marginLeft="20dp"/>
+
+                </androidx.cardview.widget.CardView>
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/text1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:text="@string/DestinasiPopuler"
+                    android:textColor="#383737"
+                    android:textSize="20dp" />
+
+                <HorizontalScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+                    android:id="@+id/h1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    >
+
+                    <RelativeLayout
+                        android:id="@+id/r2"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginTop="50dp"
+                        tools:context=".Menu2">
+
+
+                        <ImageView
+                            android:id="@+id/img1"
+                            android:layout_width="130dp"
+                            android:layout_height="200dp"
+                            android:layout_marginLeft="15dp"
+                            android:scaleType="matrix"
+                            android:src="@drawable/a3"
+                            android:onClick="img11"
+                            tools:ignore="OnClick"/>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="20dp"
+                            android:layout_marginTop="150dp"
+                            android:fontFamily="sans-serif-black"
+                            android:text="Tobasa"
+                            android:textColor="#ffffff" />
+
+
+                        <ImageView
+                            android:id="@+id/img3"
+                            android:layout_width="130dp"
+                            android:layout_height="200dp"
+                            android:layout_marginLeft="10dp"
+                            android:layout_toRightOf="@id/img1"
+                            android:scaleType="matrix"
+                            android:src="@drawable/a11"
+                            android:onClick="img12"
+                            tools:ignore="OnClick"/>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="160dp"
+                            android:layout_marginTop="150dp"
+                            android:fontFamily="sans-serif-black"
+                            android:text="Tapanuli Utara"
+                            android:textColor="#ffffff" />
+
+                        <ImageView
+                            android:id="@+id/img2"
+                            android:layout_width="130dp"
+                            android:layout_height="180dp"
+                            android:layout_marginLeft="10dp"
+                            android:layout_toRightOf="@id/img3"
+                            android:scaleType="matrix"
+                            android:src="@drawable/a1"
+                            android:onClick="img13"
+                            tools:ignore="OnClick"/>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="300dp"
+                            android:layout_marginTop="150dp"
+                            android:fontFamily="sans-serif-black"
+                            android:text="Siantar"
+                            android:textColor="#ffffff" />
+
+
+                        <ImageView
+                            android:id="@+id/img9"
+                            android:layout_width="130dp"
+                            android:layout_height="200dp"
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginRight="10dp"
+                            android:layout_toRightOf="@id/img2"
+                            android:scaleType="matrix"
+                            android:src="@drawable/a7" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="440dp"
+                            android:layout_marginTop="150dp"
+                            android:fontFamily="sans-serif-black"
+                            android:text="Brastagi"
+                            android:textColor="#ffffff" />
+                    </RelativeLayout>
+                </HorizontalScrollView>
+
+            </RelativeLayout>
+
+            <TextView
+                android:id="@+id/text3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Sedang Tren!"
+                android:textColor="#383737"
+                android:textSize="20dp" />
+
+            <HorizontalScrollView
+
+                android:id="@+id/h3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="10dp"
+                    android:background="#E0DEDE"
+                    android:orientation="vertical"
+                    android:weightSum="10">
+
+                    <androidx.cardview.widget.CardView
+                        android:id="@+id/cc1"
+                        android:layout_width="320dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="16dp"
+                        android:layout_marginRight="16dp"
+                        android:background="#ffffff"
+                        app:cardCornerRadius="8dp"
+                        app:cardElevation="8dp"
+                        android:onClick="card1"
+                        tools:ignore="OnClick">
+
+                        <RelativeLayout
+                            android:id="@+id/rr3"
+                            android:layout_width="match_parent"
+                            android:layout_height="250dp"
+                            android:layout_weight="2" >
+
+                            <RelativeLayout
+                                android:layout_width="335dp"
+                                android:layout_height="match_parent">
+
+                                <TextView
+                                    android:id="@+id/tt2"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginTop="160dp"
+                                    android:paddingLeft="5dp"
+                                    android:text="Danau Toba"
+                                    android:textColor="#000000"
+                                    android:textSize="20dp" />
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="match_parent"
+                                    android:layout_below="@+id/tt2"
+                                    android:layout_marginLeft="10dp"
+                                    android:layout_marginTop="20dp"
+                                    android:text="Rp 238,456 "
+                                    android:textColor="#000000" />
+
+                            </RelativeLayout>
+                        </RelativeLayout>
+
+                        <ImageView
+                            android:id="@+id/imgg7"
+                            android:layout_width="320dp"
+                            android:layout_height="150dp"
+                            android:scaleType="fitXY"
+                            android:src="@drawable/pantai"
+
+                            />
+
+                    </androidx.cardview.widget.CardView>
+
+                    <androidx.cardview.widget.CardView
+                        android:id="@+id/cc2"
+                        android:layout_width="320dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="16dp"
+                        android:layout_marginRight="16dp"
+                        android:layout_toRightOf="@+id/cc1"
+                        android:background="#ffffff"
+                        app:cardCornerRadius="8dp"
+                        app:cardElevation="8dp"
+                        android:onClick="card2"
+                        tools:ignore="OnClick">
+
+                        <ImageView
+                            android:id="@+id/imgg8"
+                            android:layout_width="320dp"
+                            android:layout_height="150dp"
+                            android:scaleType="fitXY"
+                            android:src="@drawable/ranu_kumbolo"
+
+                            />
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
+
+                            <TextView
+                                android:id="@+id/tt3"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="160dp"
+                                android:paddingLeft="5dp"
+                                android:text="Ranu Kumbolo"
+                                android:textColor="#000000"
+
+                                android:textSize="20dp" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="match_parent"
+                                android:layout_below="@+id/tt3"
+                                android:layout_marginLeft="10dp"
+                                android:layout_marginTop="20dp"
+                                android:text="Rp 300,980 "
+                                android:textColor="#000000" />
+
+                            <RelativeLayout
+                                android:id="@+id/rr4"
+                                android:layout_width="match_parent"
+                                android:layout_height="250dp"
+                                android:layout_weight="2" />
+
+                        </RelativeLayout>
+                    </androidx.cardview.widget.CardView>
+
+                    <androidx.cardview.widget.CardView
+                        android:id="@+id/cc3"
+                        android:layout_width="320dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="16dp"
+                        android:layout_marginRight="16dp"
+                        android:layout_toRightOf="@+id/cc2"
+                        android:background="#ffffff"
+                        app:cardCornerRadius="8dp"
+                        app:cardElevation="8dp"
+                        android:onClick="card3"
+                        tools:ignore="OnClick">
+
+                        <RelativeLayout
+                            android:id="@+id/rr6"
+                            android:layout_width="match_parent"
+                            android:layout_height="250dp"
+                            android:layout_weight="2" >
+
+                            <RelativeLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content">
+
+                                <TextView
+                                    android:id="@+id/tt5"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginTop="160dp"
+                                    android:paddingLeft="5dp"
+                                    android:text="Tomok Samosir"
+                                    android:textColor="#000000"
+
+                                    android:textSize="20dp" />
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="match_parent"
+                                    android:layout_below="@+id/tt5"
+                                    android:layout_marginLeft="10dp"
+                                    android:layout_marginTop="20dp"
+                                    android:text="Rp 294,930 "
+                                    android:textColor="#000000" />
+
+                            </RelativeLayout>
+                        </RelativeLayout>
+
+                        <ImageView
+                            android:id="@+id/imgg5"
+                            android:layout_width="320dp"
+                            android:layout_height="150dp"
+                            android:scaleType="fitXY"
+                            android:src="@drawable/toba"
+
+                            />
+
+                    </androidx.cardview.widget.CardView>
+
+                    <androidx.cardview.widget.CardView
+                        android:id="@+id/cc4"
+                        android:layout_width="320dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="16dp"
+                        android:layout_marginRight="16dp"
+                        android:layout_toRightOf="@+id/cc3"
+                        android:background="#ffffff"
+                        app:cardCornerRadius="8dp"
+                        app:cardElevation="8dp"
+                        android:onClick="card4"
+                        tools:ignore="OnClick">
+
+                        <RelativeLayout
+                            android:id="@+id/rt5"
+                            android:layout_width="match_parent"
+                            android:layout_height="250dp"
+                            android:layout_weight="2" />
+
+                        <ImageView
+                            android:id="@+id/imgg4"
+                            android:layout_width="320dp"
+                            android:layout_height="150dp"
+                            android:scaleType="fitXY"
+                            android:src="@drawable/huta_siallagan"
+
+                            />
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
+
+                            <TextView
+                                android:id="@+id/tt4"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="160dp"
+                                android:paddingLeft="5dp"
+                                android:text="Huta Siallagan"
+                                android:textColor="#000000"
+
+                                android:textSize="20dp" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="match_parent"
+                                android:layout_below="@+id/tt4"
+                                android:layout_marginLeft="10dp"
+                                android:layout_marginTop="20dp"
+                                android:text="Rp 430,980 "
+                                android:textColor="#000000" />
+
+                        </RelativeLayout>
+                    </androidx.cardview.widget.CardView>
+                </RelativeLayout>
+            </HorizontalScrollView>
+            <TextView
+                android:id="@+id/text2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Sedang Tren!"
+                android:textColor="#383737"
+                android:textSize="20dp" />
+
+            <HorizontalScrollView
+
+                android:id="@+id/h33"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="10dp"
+                    android:background="#E0DEDE"
+                    android:orientation="vertical"
+                    android:layout_marginBottom="60dp"
+                    android:weightSum="10">
+
+                    <androidx.cardview.widget.CardView
+                        android:id="@+id/cc11"
+                        android:layout_width="320dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="16dp"
+                        android:layout_marginRight="16dp"
+                        android:background="#ffffff"
+                        app:cardCornerRadius="8dp"
+                        app:cardElevation="8dp"
+                        android:onClick="card11"
+                        tools:ignore="OnClick">
+
+                        <RelativeLayout
+                            android:id="@+id/rr33"
+                            android:layout_width="match_parent"
+                            android:layout_height="250dp"
+                            android:layout_weight="2" >
+
+                            <RelativeLayout
+                                android:layout_width="335dp"
+                                android:layout_height="match_parent">
+
+                                <TextView
+                                    android:id="@+id/tt22"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginTop="160dp"
+                                    android:paddingLeft="5dp"
+                                    android:text="Air Terjun Telaga"
+                                    android:textColor="#000000"
+                                    android:textSize="20dp" />
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="match_parent"
+                                    android:layout_below="@+id/tt22"
+                                    android:layout_marginLeft="10dp"
+                                    android:layout_marginTop="20dp"
+                                    android:text="Rp 221,456 "
+                                    android:textColor="#000000" />
+
+                            </RelativeLayout>
+                        </RelativeLayout>
+
+                        <ImageView
+                            android:id="@+id/imgg77"
+                            android:layout_width="320dp"
+                            android:layout_height="150dp"
+                            android:scaleType="fitXY"
+                            android:src="@drawable/airterjuntelaga"
+
+                            />
+
+                    </androidx.cardview.widget.CardView>
+
+                    <androidx.cardview.widget.CardView
+                        android:id="@+id/cc22"
+                        android:layout_width="320dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="16dp"
+                        android:layout_marginRight="16dp"
+                        android:layout_toRightOf="@+id/cc11"
+                        android:background="#ffffff"
+                        app:cardCornerRadius="8dp"
+                        app:cardElevation="8dp"
+                        android:onClick="card22"
+                        tools:ignore="OnClick">
+
+                        <ImageView
+                            android:id="@+id/imgg88"
+                            android:layout_width="320dp"
+                            android:layout_height="150dp"
+                            android:scaleType="fitXY"
+                            android:src="@drawable/danaulaukawar"
+
+                            />
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
+
+                            <TextView
+                                android:id="@+id/tt33"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="160dp"
+                                android:paddingLeft="5dp"
+                                android:text="Danau Lau Kawar"
+                                android:textColor="#000000"
+
+                                android:textSize="20dp" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="match_parent"
+                                android:layout_below="@+id/tt33"
+                                android:layout_marginLeft="10dp"
+                                android:layout_marginTop="20dp"
+                                android:text="Rp 300,980 "
+                                android:textColor="#000000" />
+
+                            <RelativeLayout
+                                android:id="@+id/rr44"
+                                android:layout_width="match_parent"
+                                android:layout_height="250dp"
+                                android:layout_weight="2" />
+
+                        </RelativeLayout>
+                    </androidx.cardview.widget.CardView>
+
+                    <androidx.cardview.widget.CardView
+                        android:id="@+id/cc33"
+                        android:layout_width="320dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="16dp"
+                        android:layout_marginRight="16dp"
+                        android:layout_toRightOf="@+id/cc22"
+                        android:background="#ffffff"
+                        app:cardCornerRadius="8dp"
+                        app:cardElevation="8dp"
+                        android:onClick="card33"
+                        tools:ignore="OnClick">
+
+                        <RelativeLayout
+                            android:id="@+id/rr66"
+                            android:layout_width="match_parent"
+                            android:layout_height="250dp"
+                            android:layout_weight="2" >
+
+                            <RelativeLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content">
+
+                                <TextView
+                                    android:id="@+id/tt55"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginTop="160dp"
+                                    android:paddingLeft="5dp"
+                                    android:text="Air Trejun Sigura-gura"
+                                    android:textColor="#000000"
+
+                                    android:textSize="20dp" />
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="match_parent"
+                                    android:layout_below="@+id/tt55"
+                                    android:layout_marginLeft="10dp"
+                                    android:layout_marginTop="20dp"
+                                    android:text="Rp 294,930 "
+                                    android:textColor="#000000" />
+
+                            </RelativeLayout>
+                        </RelativeLayout>
+
+                        <ImageView
+                            android:id="@+id/imgg55"
+                            android:layout_width="320dp"
+                            android:layout_height="150dp"
+                            android:scaleType="fitXY"
+                            android:src="@drawable/sigura"
+
+                            />
+
+                    </androidx.cardview.widget.CardView>
+
+                    <androidx.cardview.widget.CardView
+                        android:id="@+id/cc44"
+                        android:layout_width="320dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="16dp"
+                        android:layout_marginRight="16dp"
+                        android:layout_toRightOf="@+id/cc33"
+                        android:background="#ffffff"
+                        app:cardCornerRadius="8dp"
+                        app:cardElevation="8dp"
+                        android:onClick="card44"
+                        tools:ignore="OnClick">
+
+                        <RelativeLayout
+                            android:id="@+id/rt55"
+                            android:layout_width="match_parent"
+                            android:layout_height="250dp"
+                            android:layout_weight="2" />
+
+                        <ImageView
+                            android:id="@+id/imgg44"
+                            android:layout_width="320dp"
+                            android:layout_height="150dp"
+                            android:scaleType="fitXY"
+                            android:src="@drawable/cagaralamsibolangit"
+
+                            />
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
+
+                            <TextView
+                                android:id="@+id/tt44"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="160dp"
+                                android:paddingLeft="5dp"
+                                android:text="Cagar Alam Sibolangit"
+                                android:textColor="#000000"
+
+                                android:textSize="20dp" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="match_parent"
+                                android:layout_below="@+id/tt44"
+                                android:layout_marginLeft="10dp"
+                                android:layout_marginTop="20dp"
+                                android:text="Rp 430,980 "
+                                android:textColor="#000000" />
+
+                        </RelativeLayout>
+                    </androidx.cardview.widget.CardView>
+                </RelativeLayout>
+            </HorizontalScrollView>
+        </LinearLayout>
+    </ScrollView>
+
+</FrameLayout>

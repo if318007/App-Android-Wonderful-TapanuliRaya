@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".MainActivity">
+
+        <TextView
+            android:id="@+id/text1"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:fontFamily="sans-serif-black"
+            android:text="Destinasi Populer di Tapanuli Utara"
+            android:textColor="#000000"
+            android:textSize="20dp"
+            android:layout_marginLeft="20dp"/>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cc5"
+            android:layout_width="350dp"
+            android:layout_height="300dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="16dp"
+            android:background="#ffffff"
+            app:cardCornerRadius="8dp"
+            app:cardElevation="8dp"
+            android:layout_marginTop="20dp"
+            android:layout_below="@+id/text1">
+
+            <RelativeLayout
+                android:id="@+id/rt6"
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:layout_weight="2" />
+
+            <ImageView
+                android:id="@+id/imgg4"
+                android:layout_width="350dp"
+                android:layout_height="150dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/soda"
+
+                />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/tt4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="160dp"
+                    android:paddingLeft="5dp"
+                    android:text="Air Terjun Simanimbo"
+                    android:textColor="#000000"
+
+                    android:textSize="20dp" />
+
+                <TextView
+                    android:id="@+id/tr"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_below="@+id/tt4"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:text="Pemandian yang satu ini wajib dikunjungi, karena yang namanya pemandian air soda, hanya ada 2 di dunia, satu berada di Venezuela, satunya lagi ada di Desa Parbubu, Kecamatan Tarutung, Sumatera Utara"
+                    android:textColor="#000000" />
+
+            </RelativeLayout>
+        </androidx.cardview.widget.CardView>
+        <androidx.cardview.widget.CardView
+            android:layout_below="@+id/cc5"
+            android:id="@+id/cc4"
+            android:layout_width="350dp"
+            android:layout_height="300dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="16dp"
+            android:background="#ffffff"
+            app:cardCornerRadius="8dp"
+            app:cardElevation="8dp"
+            android:layout_marginTop="20dp">
+
+            <RelativeLayout
+                android:id="@+id/rt5"
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:layout_weight="2" />
+
+            <ImageView
+                android:id="@+id/imgg5"
+                android:layout_width="350dp"
+                android:layout_height="150dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/sibandang"
+
+                />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/tt5"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="160dp"
+                    android:paddingLeft="5dp"
+                    android:text="Pulau Sibandang "
+                    android:textColor="#000000"
+
+                    android:textSize="20dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_below="@+id/tt5"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                   android:text="Selain Samosir, pulau lain yang banyak dikunjungi wisatawan saat berkunjung ke Danau Toba adalah Pulau Sibandang yang menjadi bagian dari wilayah Kecamatan Muara."
+                    android:textColor="#000000" />
+
+            </RelativeLayout>
+        </androidx.cardview.widget.CardView>
+        <androidx.cardview.widget.CardView
+            android:layout_below="@+id/cc4"
+            android:id="@+id/cca"
+            android:layout_width="350dp"
+            android:layout_height="300dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="16dp"
+            android:background="#ffffff"
+            app:cardCornerRadius="8dp"
+            app:cardElevation="8dp"
+            android:layout_marginTop="50dp">
+
+            <RelativeLayout
+                android:id="@+id/rta"
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:layout_weight="2" />
+
+            <ImageView
+                android:id="@+id/imgg5a"
+                android:layout_width="350dp"
+                android:layout_height="150dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/kasih"
+
+                />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="50dp">
+
+                <TextView
+                    android:id="@+id/tt5a"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="160dp"
+                    android:paddingLeft="5dp"
+                    android:text="Salib Kasih "
+                    android:textColor="#000000"
+
+                    android:textSize="20dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_below="@+id/tt5a"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:textColor="#000000"
+                    android:text="Destinasi wisata religi ini berupa monumen berbentuk salib berukuran besar yang menjulang tinggi. Dibangun pada bulan Oktober 1933 untuk mengenang dan menghormati jasa seorang misionaris Kristen berkebangsaan Jerman yang bernama Ingwer Ludwig Nommensen yang membawa agama Kristen ke Tapanuli."
+                    />
+            </RelativeLayout>
+        </androidx.cardview.widget.CardView>
+
+
+    </RelativeLayout>
+</ScrollView>

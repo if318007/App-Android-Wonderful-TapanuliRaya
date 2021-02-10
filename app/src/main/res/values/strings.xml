@@ -1,0 +1,61 @@
+<resources>
+    <string name="app_name">WonderfulTapanuliRaya</string>
+    <string name="title_activity_home">Home</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="title_activity_navigation">Navigation</string>
+    <string name="title_destinasi">Destinasi</string>
+    <string name="title_akun">Akun</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="DestinasiPopuler">Destinasi Populer</string>
+    <string name="Aktivitas">Aktivitas Populer</string>
+    <string name="hint_word">Word...</string>
+    <string name="button_save">Save</string>
+    <string name="empty_not_saved">Word not saved because it is empty.</string>
+
+    <string name="first_name">First Name</string>
+    <string name="last_name">Last Name</string>
+    <string name="phone_number">Phone Number</string>
+    <string name="save">Save</string>
+    <string name="update">Update</string>
+    <string name="delete">Delete</string>
+    <string name="created_on">Created On</string>
+    <string name="DanauToba">Danau Toba</string>
+    <string name="Hargatoba">Rp 238,456</string>
+    <string name="jlhrating">4.8</string>
+    <string name="ulas">(2,037 Ulasan)</string>
+    <string name="detailtoba">Danau Toba terletak di pegunungan Bukit Barisan, Sumatera Utara. Luasnya 1.145 kilometer persegi yang menjadikannya danau terluas se-Asia Tenggara dan luasnya lebih besar dari Singapura [716 km].  Danau Toba juga menjadi danau terluas di dunia yang terbentuk dari erupsi gunung berapi, dan masuk dalam daftar Guinness World Records.  Latar belakang Danau Toba terbentuk karena letusan gunung berapi yang memuntahkan 2.800 km kubik material letusan, sehingga membuat kawah yang lambat laun dipenuhi air menjadi danau.</string>
+    <string name="Deskripsi">Deskripsi</string>
+    <string name="paduan">Paduan Pemesanan</string>
+    <string name="titik">.</string>
+    <string name="paduan1">Anda harus memesan tiket sebelum traveling atau sebelum memasuki kawasan danau toba</string>
+    <string name="paduan2">Tanggal yang anda pilih pada saat pemesanan bukanlah tanggal aktivasi, melainkan tanggal keberangkatan anda ke toba .Pesan setidaknya 2-5 hari kerja sebelum tanggal yang anda inginkan untuk menerima pass</string>
+    <string name="paduan3">Nama, negara tempat tinggal dan nomor paspor harus sama persis dengan yang tertulis di paspor. jangan gunakan karakter Khusus.</string>
+    <string name="Ranu">Ranu Kumbolo</string>
+    <string name="HargaRanu">300,980</string>
+    <string name="jlhrating1">4.6</string>
+    <string name="ulas1">2,635</string>
+    <string name="detailranu">Ranu Kumbolo adalah sebuah danau air tawar yang sering menjadi tempat transit bagi para pendaki Gunung Semeru. Danau ini terletak di ketinggian 2.400 meter di atas permukaan laut. Danau Ranu Kumbolo juga merupakan sumber air bersih bagi para pendaki gunung semeru. Dengan debit air yang berlimpah, danau ini juga menjadi tempat berkumpulnya para pendaki untuk berkemah. Ranu Kumbolo berlokasi di kawasan Taman Nasional Bromo Tengger Semeru, tepatnya di antara kabupaten Malang dan Kabupaten Lumajang, Jawa Timur. Sejujurnya, perjalanan wisata menuju Ranu Kumbolo bukanlah perjalanan yang mudah untuk ditempuh, bahkan dapat dikatakan perjalanan yang berat karena membutuhkan kekuatan fisik yang prima dan perbekalan yang cukup. Disarankan bagi Anda yang ingin berwisata ke danau ini, paling tidak selama satu minggu sebelum keberangkatan alangkah baiknya jika latihan fisik terlebih dahulu.</string>
+    <string name="tomok">Tomok Samosir</string>
+    <string name="Hargatomok">294,930</string>
+    <string name="jlhrating2">4.7</string>
+    <string name="ulas2">2,541</string>
+    <string name="detailtomok">Tomok adalah sebuah desa kecil yang terletak di pesisir timur Pulau Samosir, Danau Toba, Sumatra Utara. Dari Medan tempat ini membutuhkan waktu kurang lebih 4-5 Jam sampai di Parapat dengan mobil carteran atau bus antar-kota. Ekstra satu jam lagi untuk menyeberang dari Ajibata ke Tomok. Desa ini sangat menggantungkan kehidupan para masyarakatnya pada bidang agraris, perdagangan dan pariwisata. Desa yang ukurannya tidak terlalu luas ini tampaknya sudah cukup mendapat pengaruh modernitas yang cukup besar di kalangan masyarakatnya. Hal ini terbukti dengan persandingan antara makam, gereja tua, becak motor dan kehidupan masyarakatnya yang cukup menguasai penggunaan bahasa Inggris pada saat bertemu dengan wisatawan asing.  Banyaknya makam dan benda-benda peninggalan zaman megalitik dan purba menjadikan lokasi ini sebagai salah satu situs kebudayaan Batak yang cukup terkenal di kalangan wisatawan. Lokasinya yang terletak tepat di tepi dermaga penghubung ke Parapat juga memudahkan para wisatawan mengunjungi tempat ini. Makam besar seperti Makam Raja Sidabutar dan keluarganya, Museum Batak, Patung Sigale-Gale, Batukursi Tomok, Patung Gajah, HKBP Resort Tomok dan gereja gereja yang sederhana memenuhi daerah ini. Ditambah pula dengan adanya resort yang berada di Tuk Tuk Siadong yang semakin mengukuhkan ddaerah ini menjadi tempat pariwisata. Saat ini tomok sudah dimekarkan menjadi 2 desa, yaitu desa Tomok (Tomok induk), dan desa Tomok Parsaoran.</string>
+    <string name="huta">Huta Siallagan</string>
+    <string name="Hargahuta">430,980</string>
+    <string name="ulas3">1,321</string>
+    <string name="telaga">Air Terjun Telaga</string>
+    <string name="Hargatelaga">221,456</string>
+    <string name="jlhrating11">4.7</string>
+    <string name="ulas11">(2,142)</string>
+    <string name="detailterjun">Utara. Airnya berasal dari Gunung Sibayak. Ketinggian Air Terjun Dua Warna berada pada 1270 meter dpl. Kenapa dikatakan Air Terjun Dua Warna? Jawabannya adalah karena air terjun indah ini memang memiliki dua gradasi warna yang berbeda. Air yang tertampung dari pancurannya di bawah berwarna putih keabu-abuan sementara air terjun yang tumpah riuh dari atas berwarna biru muda. Anda akan semakin terkagum-kagum sebab di lokasi Air terjun Dua Warna, tidak hanya terdapat satu air terjun saja, melainkan tiga. Sungguh luar biasa keajaiban Sang Pencipta! Wisatawan dari ras Tionghoa juga kerap menyambangi tempat ini. Mereka meyakini bahwa Air Terjun Dua Warna akan memberi keberuntungan bagi mereka.  Keindahan Air Terjun Dua Warna Sumatera UtaraSecara ilmiah, perbedaan warna ini disebabkan oleh airnya yang mengandung fosfor dan belerang. Dengan demikian, saat Anda tengah bermain-main di sini, Anda tidak diperkenankan untuk meminum airnya. Selain warna, suhu air terjun ini pun sangat unik. Suhu dingin pada air yang berwarna biru, dan suhu hangat pada air berwarna putih keabu-abuan.</string>
+    <string name="danaulau">Danau Lau Kawar</string>
+    <string name="detaillau">Danau Lau Kawar ada di kaki Gunung Sinabung, sekitar 30 km dari Kota Medan. Tepatnya, di Kecamatan Naman Teran, Kabupaten Karo, Sumatera Utara. Danau ini menampilkan keindahan yang memanjakan mata, namun pasca letusan Gunung Sinabung turisnya memang tidak seramai dulu.  Dari informasi yang dikumpulkan detikTravel, Kamis (20/10/2016), sepanjang perjalanan menuju danau traveler akan menikmati keindahan kawasan Gunung Sinabung. Sesampainya di tujuan, terlihatlah Danau Lau Kawar dengan air berwarna kehijauan.  Suasana yang sejuk begitu terasa. Sekadar duduk di tepian danau sambil menikmati pemandangan perbukitan hijau dan Gunung Sinabung pun cukup menyenangkan. Apalagi danaunya bersih dari sampah. Kalau mau kemping pun tersedia area mendirikan tenda yang cukup luas.</string>
+    <string name="gura">Air Terjun Sigura-gura</string>
+    <string name="cagar">Cagar Alam Sibolangit</string>
+    <string name="cagaral">taman wisata alam, cagar alam sibolangit, sibolangit, kecamatan sibolangit, sumut, berita sumut, berita siantar, berita simalungun, wisata, Taman Wisata Alam Sibolangit jadikan Taman lantaran banyak flora serta fauna yang berguna untuk kepentingan pendidikan Cagar alam ini menurut histori adalah cabang dari Kebun Raya Bogor yang didirikan oleh Tuan J. A. Lorzing dengan luas kian lebih 100 hektar pada th. 1914. Lalu cagar alam ini diresmikan tanggal 10 Maret 1938 lewat Surat Ketentuan Z. B. No. 37/PK. Lantas pada th. 1980, tempat seluas kian lebih 24 hektar lewat Surat Ketentuan Menteri Pertanian No. 636/Kpts/Um/9/1980 jadikan lokasi Taman Wisata Alam Sibolangit lantaran banyak bermacam type flora serta fauna yang langka serta dilindungi oleh pemerintah dan berguna untuk kepentingan ilmu dan pengetahuan.  Untuk menuju tempat asri di Sumatera Utara ini, bisa ditempuh lebih kurang satu jam dengan kendaraan pribadi dari pusat kota Medan yang berjarak 40 Km.</string>
+    <string name="pesanan">Pesanan</string>
+</resources>

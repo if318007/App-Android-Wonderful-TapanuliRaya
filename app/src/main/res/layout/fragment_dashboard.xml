@@ -1,0 +1,352 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".Restaurant">
+        <TextView
+            android:id="@+id/text1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Riwayat Pemesanan "
+            android:textColor="#000000"
+            android:textSize="20dp"
+            android:fontFamily="sans-serif-black"
+            android:layout_marginLeft="20dp"/>
+        <androidx.cardview.widget.CardView
+            android:layout_below="@+id/text1"
+            android:id="@+id/cc1"
+            android:layout_width="320dp"
+            android:layout_height="230dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:background="#ffffff"
+            app:cardCornerRadius="8dp"
+            app:cardElevation="8dp"
+            android:layout_marginTop="20dp">
+
+            <RelativeLayout
+                android:id="@+id/rr3"
+                android:layout_width="match_parent"
+                android:layout_height="230dp"
+                android:layout_weight="2" >
+
+                <RelativeLayout
+                    android:layout_width="335dp"
+                    android:layout_height="match_parent">
+                    <ImageView
+                        android:id="@+id/imgg7"
+                        android:layout_width="150dp"
+                        android:layout_height="130dp"
+                        android:scaleType="fitXY"
+                        android:src="@drawable/bakso"
+
+                        />
+                    <TextView
+                        android:id="@+id/tt2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:paddingLeft="5dp"
+                        android:text="Bakso Babi Balige"
+                        android:textColor="#000000"
+                        android:textSize="20dp"
+                        android:layout_toRightOf="@+id/imgg7"/>
+
+                    <ImageView
+                        android:id="@+id/jlhrating"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/tt2"
+                        app:srcCompat="@drawable/star"
+                        android:layout_toRightOf="@+id/imgg7"
+                        android:layout_marginTop="20dp"/>
+
+                    <TextView
+                        android:id="@+id/ulas"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/tt2"
+                        android:layout_marginLeft="6dp"
+                        android:layout_toRightOf="@+id/jlhrating"
+                        android:text="@string/jlhrating"
+                        android:textColor="#000000"
+                        android:layout_marginTop="20dp"/>
+
+                    <TextView
+                        android:id="@+id/jlhulas"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/tt2"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="20dp"
+                        android:layout_toRightOf="@+id/ulas"
+                        android:text="@string/ulas"
+                        android:textColor="#1386EB" />
+                    <ImageButton
+                        android:id="@+id/share"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/jlhrating"
+                        android:background="#6DEBD8"
+                        android:layout_marginLeft="-45dp"
+                        android:layout_marginTop="6dp"
+                        android:layout_toRightOf="@+id/ulas"
+                        app:srcCompat="@drawable/share" />
+
+                    <RatingBar
+                        android:id="@+id/simpleRatingBar"
+                        android:layout_width="wrap_content"
+                        android:layout_height="40dp"
+                        android:layout_below="@+id/jlhrating"
+                        android:layout_marginTop="70dp"
+                        android:background="#FDD835"
+                        android:paddingLeft="5dp"
+                        android:paddingRight="5dp"
+                        android:rating="3"
+                        android:layout_centerHorizontal="true"/>
+
+                    <Button
+                        android:layout_below="@+id/simpleRatingBar"
+                        android:id="@+id/submitButton"
+                        android:layout_width="wrap_content"
+                        android:layout_height="40dp"
+                        android:background="#1E88E5"
+                        android:padding="10dp"
+                        android:text="Submit"
+                        android:textColor="#fff"
+                        android:textSize="18sp"
+
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginTop="5dp"/>
+                </RelativeLayout>
+            </RelativeLayout>
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_below="@+id/cc1"
+            android:id="@+id/cc2"
+            android:layout_width="320dp"
+            android:layout_height="230dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:background="#ffffff"
+            app:cardCornerRadius="8dp"
+            app:cardElevation="8dp"
+            android:layout_marginTop="20dp">
+
+            <RelativeLayout
+                android:id="@+id/rr33"
+                android:layout_width="match_parent"
+                android:layout_height="230dp"
+                android:layout_weight="2" >
+
+                <RelativeLayout
+                    android:layout_width="335dp"
+                    android:layout_height="match_parent">
+                    <ImageView
+                        android:id="@+id/imgg77"
+                        android:layout_width="150dp"
+                        android:layout_height="130dp"
+                        android:scaleType="fitXY"
+                        android:src="@drawable/arsik"
+
+                        />
+                    <TextView
+                        android:id="@+id/tt22"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:paddingLeft="5dp"
+                        android:text="Ikan Arsik Daijo"
+                        android:textColor="#000000"
+                        android:textSize="20dp"
+                        android:layout_toRightOf="@+id/imgg77"/>
+
+                    <ImageView
+                        android:id="@+id/jlhrating1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/tt22"
+                        app:srcCompat="@drawable/star"
+                        android:layout_toRightOf="@+id/imgg77"
+                        android:layout_marginTop="20dp"/>
+
+                    <TextView
+                        android:id="@+id/ulas1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/tt22"
+                        android:layout_marginLeft="6dp"
+                        android:layout_toRightOf="@+id/jlhrating1"
+                        android:text="@string/jlhrating"
+                        android:textColor="#000000"
+                        android:layout_marginTop="20dp"/>
+
+                    <TextView
+                        android:id="@+id/jlhulas1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/tt22"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="20dp"
+                        android:layout_toRightOf="@+id/ulas1"
+                        android:text="@string/ulas"
+                        android:textColor="#1386EB" />
+                    <ImageButton
+                        android:id="@+id/share2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/jlhrating1"
+                        android:background="#6DEBD8"
+                        android:layout_marginLeft="-45dp"
+                        android:layout_marginTop="6dp"
+                        android:layout_toRightOf="@+id/ulas1"
+                        app:srcCompat="@drawable/share" />
+                    <RatingBar
+                        android:id="@+id/simpleRatingBar1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="40dp"
+                        android:layout_below="@+id/jlhrating1"
+                        android:layout_marginTop="70dp"
+                        android:background="#FDD835"
+                        android:paddingLeft="5dp"
+                        android:paddingRight="5dp"
+                        android:rating="2"
+                        android:layout_centerHorizontal="true"/>
+
+                    <Button
+                        android:layout_below="@+id/simpleRatingBar1"
+                        android:id="@+id/submitButton1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="40dp"
+                        android:background="#1E88E5"
+                        android:padding="10dp"
+                        android:text="Submit"
+                        android:textColor="#fff"
+                        android:textSize="18sp"
+
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginTop="5dp"/>
+                </RelativeLayout>
+            </RelativeLayout>
+        </androidx.cardview.widget.CardView>
+        <androidx.cardview.widget.CardView
+            android:layout_below="@+id/cc2"
+            android:id="@+id/cc22"
+            android:layout_width="320dp"
+            android:layout_height="230dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:background="#ffffff"
+            app:cardCornerRadius="8dp"
+            app:cardElevation="8dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="60dp">
+
+            <RelativeLayout
+                android:id="@+id/rr333"
+                android:layout_width="match_parent"
+                android:layout_height="230dp"
+                android:layout_weight="2"
+                android:layout_marginBottom="50dp">
+
+                <RelativeLayout
+                    android:layout_width="335dp"
+                    android:layout_height="match_parent"
+
+                    >
+                    <ImageView
+                        android:id="@+id/imgg777"
+                        android:layout_width="150dp"
+                        android:layout_height="130dp"
+                        android:scaleType="fitXY"
+                        android:src="@drawable/gomak"
+
+                        />
+                    <TextView
+                        android:id="@+id/tt222"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:paddingLeft="5dp"
+                        android:text="Mie Gomak"
+                        android:textColor="#000000"
+                        android:textSize="20dp"
+                        android:layout_toRightOf="@+id/imgg777"/>
+
+                    <ImageView
+                        android:id="@+id/jlhrating11"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/tt222"
+                        app:srcCompat="@drawable/star"
+                        android:layout_toRightOf="@+id/imgg777"
+                        android:layout_marginTop="20dp"/>
+
+                    <TextView
+                        android:id="@+id/ulas11"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/tt222"
+                        android:layout_marginLeft="6dp"
+                        android:layout_toRightOf="@+id/jlhrating11"
+                        android:text="@string/jlhrating"
+                        android:textColor="#000000"
+                        android:layout_marginTop="20dp"/>
+
+                    <TextView
+                        android:id="@+id/jlhulas11"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/tt222"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="20dp"
+                        android:layout_toRightOf="@+id/ulas11"
+                        android:text="@string/ulas"
+                        android:textColor="#1386EB" />
+
+                    <ImageButton
+                        android:id="@+id/share1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/jlhrating11"
+                        android:background="#6DEBD8"
+                        android:layout_marginLeft="-45dp"
+                        android:layout_marginTop="6dp"
+                        android:layout_toRightOf="@+id/ulas11"
+                        app:srcCompat="@drawable/share" />
+
+                    <RatingBar
+                        android:id="@+id/simpleRatingBar11"
+                        android:layout_width="wrap_content"
+                        android:layout_height="40dp"
+                        android:layout_below="@+id/jlhrating11"
+                        android:layout_marginTop="70dp"
+                        android:background="#FDD835"
+                        android:paddingLeft="5dp"
+                        android:paddingRight="5dp"
+                        android:rating="2"
+                        android:layout_centerHorizontal="true"/>
+
+                    <Button
+                        android:layout_below="@+id/simpleRatingBar11"
+                        android:id="@+id/submitButton11"
+                        android:layout_width="wrap_content"
+                        android:layout_height="40dp"
+                        android:background="#1E88E5"
+                        android:padding="10dp"
+                        android:text="Submit"
+                        android:textColor="#fff"
+                        android:textSize="18sp"
+
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginTop="5dp"/>
+                </RelativeLayout>
+            </RelativeLayout>
+        </androidx.cardview.widget.CardView>
+
+    </RelativeLayout>
+</ScrollView>
